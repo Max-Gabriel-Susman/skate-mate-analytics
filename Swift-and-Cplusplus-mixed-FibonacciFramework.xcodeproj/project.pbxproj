@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FACAB62129FAFCB10054D077 /* Swift_and_Cplusplus_mixed_FibonacciFrameworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAB62029FAFCB10054D077 /* Swift_and_Cplusplus_mixed_FibonacciFrameworkApp.swift */; };
-		FACAB62329FAFCB10054D077 /* FibonacciView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAB62229FAFCB10054D077 /* FibonacciView.swift */; };
+		002176872C765E04007AD789 /* SkateMateSessionCplusplus.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 002176862C765E04007AD789 /* SkateMateSessionCplusplus.hpp */; };
+		002176882C765E04007AD789 /* SkateMateSessionCplusplus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 002176852C765E04007AD789 /* SkateMateSessionCplusplus.cpp */; };
+		FACAB62129FAFCB10054D077 /* SkateMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAB62029FAFCB10054D077 /* SkateMateApp.swift */; };
+		FACAB62329FAFCB10054D077 /* SkateMateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAB62229FAFCB10054D077 /* SkateMateView.swift */; };
 		FACAB62529FAFCB20054D077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACAB62429FAFCB20054D077 /* Assets.xcassets */; };
 		FACAB62829FAFCB20054D077 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACAB62729FAFCB20054D077 /* Preview Assets.xcassets */; };
-		FACAB63729FAFD6C0054D077 /* Fibonacci.h in Headers */ = {isa = PBXBuildFile; fileRef = FACAB63629FAFD6C0054D077 /* Fibonacci.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FACAB63A29FAFD6C0054D077 /* Fibonacci.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACAB63429FAFD6C0054D077 /* Fibonacci.framework */; };
-		FACAB63B29FAFD6C0054D077 /* Fibonacci.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FACAB63429FAFD6C0054D077 /* Fibonacci.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FACAB63729FAFD6C0054D077 /* SkateMateCxx.h in Headers */ = {isa = PBXBuildFile; fileRef = FACAB63629FAFD6C0054D077 /* SkateMateCxx.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FACAB63A29FAFD6C0054D077 /* SkateMateCxx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACAB63429FAFD6C0054D077 /* SkateMateCxx.framework */; };
+		FACAB63B29FAFD6C0054D077 /* SkateMateCxx.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FACAB63429FAFD6C0054D077 /* SkateMateCxx.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FACAB64229FAFD960054D077 /* FibonacciCplusplus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FACAB64029FAFD960054D077 /* FibonacciCplusplus.cpp */; };
 		FACAB64329FAFD960054D077 /* FibonacciCplusplus.hpp in Headers */ = {isa = PBXBuildFile; fileRef = FACAB64129FAFD960054D077 /* FibonacciCplusplus.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		FACAB64529FAFE100054D077 /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAB64429FAFE100054D077 /* Fibonacci.swift */; };
+		FACAB64529FAFE100054D077 /* SkateMateCxx.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAB64429FAFE100054D077 /* SkateMateCxx.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FACAB63B29FAFD6C0054D077 /* Fibonacci.framework in Embed Frameworks */,
+				FACAB63B29FAFD6C0054D077 /* SkateMateCxx.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,20 +46,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		002176852C765E04007AD789 /* SkateMateSessionCplusplus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkateMateSessionCplusplus.cpp; sourceTree = "<group>"; };
+		002176862C765E04007AD789 /* SkateMateSessionCplusplus.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SkateMateSessionCplusplus.hpp; sourceTree = "<group>"; };
 		18D3FB5E333BF2E98FD82B4E /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		88904A36A8944F4BE70653F4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		9F6BCCFAE033D8DD91C3493D /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		FACAB61D29FAFCB10054D077 /* Swift-and-Cplusplus-mixed-FibonacciFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-and-Cplusplus-mixed-FibonacciFramework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FACAB62029FAFCB10054D077 /* Swift_and_Cplusplus_mixed_FibonacciFrameworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_and_Cplusplus_mixed_FibonacciFrameworkApp.swift; sourceTree = "<group>"; };
-		FACAB62229FAFCB10054D077 /* FibonacciView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciView.swift; sourceTree = "<group>"; };
+		FACAB62029FAFCB10054D077 /* SkateMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkateMateApp.swift; sourceTree = "<group>"; };
+		FACAB62229FAFCB10054D077 /* SkateMateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkateMateView.swift; sourceTree = "<group>"; };
 		FACAB62429FAFCB20054D077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FACAB62729FAFCB20054D077 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FACAB62929FAFCB20054D077 /* Swift_and_Cplusplus_mixed_FibonacciFramework.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Swift_and_Cplusplus_mixed_FibonacciFramework.entitlements; sourceTree = "<group>"; };
-		FACAB63429FAFD6C0054D077 /* Fibonacci.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Fibonacci.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FACAB63629FAFD6C0054D077 /* Fibonacci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fibonacci.h; sourceTree = "<group>"; };
+		FACAB63429FAFD6C0054D077 /* SkateMateCxx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SkateMateCxx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACAB63629FAFD6C0054D077 /* SkateMateCxx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkateMateCxx.h; sourceTree = "<group>"; };
 		FACAB64029FAFD960054D077 /* FibonacciCplusplus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FibonacciCplusplus.cpp; sourceTree = "<group>"; };
 		FACAB64129FAFD960054D077 /* FibonacciCplusplus.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FibonacciCplusplus.hpp; sourceTree = "<group>"; };
-		FACAB64429FAFE100054D077 /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
+		FACAB64429FAFE100054D077 /* SkateMateCxx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkateMateCxx.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FACAB63A29FAFD6C0054D077 /* Fibonacci.framework in Frameworks */,
+				FACAB63A29FAFD6C0054D077 /* SkateMateCxx.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +85,6 @@
 		691B0302A97DF170545620C1 /* LICENSE */ = {
 			isa = PBXGroup;
 			children = (
-				9F6BCCFAE033D8DD91C3493D /* LICENSE.txt */,
 			);
 			path = LICENSE;
 			sourceTree = "<group>";
@@ -100,7 +102,7 @@
 			children = (
 				88904A36A8944F4BE70653F4 /* README.md */,
 				FACAB61F29FAFCB10054D077 /* Swift-and-Cplusplus-mixed-FibonacciFramework */,
-				FACAB63529FAFD6C0054D077 /* Fibonacci */,
+				FACAB63529FAFD6C0054D077 /* SkateMateCxx */,
 				FACAB61E29FAFCB10054D077 /* Products */,
 				EDE2FDF3ED43C13AF95DF4BB /* Configuration */,
 				691B0302A97DF170545620C1 /* LICENSE */,
@@ -111,7 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				FACAB61D29FAFCB10054D077 /* Swift-and-Cplusplus-mixed-FibonacciFramework.app */,
-				FACAB63429FAFD6C0054D077 /* Fibonacci.framework */,
+				FACAB63429FAFD6C0054D077 /* SkateMateCxx.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,8 +121,8 @@
 		FACAB61F29FAFCB10054D077 /* Swift-and-Cplusplus-mixed-FibonacciFramework */ = {
 			isa = PBXGroup;
 			children = (
-				FACAB62029FAFCB10054D077 /* Swift_and_Cplusplus_mixed_FibonacciFrameworkApp.swift */,
-				FACAB62229FAFCB10054D077 /* FibonacciView.swift */,
+				FACAB62029FAFCB10054D077 /* SkateMateApp.swift */,
+				FACAB62229FAFCB10054D077 /* SkateMateView.swift */,
 				FACAB62429FAFCB20054D077 /* Assets.xcassets */,
 				FACAB62929FAFCB20054D077 /* Swift_and_Cplusplus_mixed_FibonacciFramework.entitlements */,
 				FACAB62629FAFCB20054D077 /* Preview Content */,
@@ -136,15 +138,17 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		FACAB63529FAFD6C0054D077 /* Fibonacci */ = {
+		FACAB63529FAFD6C0054D077 /* SkateMateCxx */ = {
 			isa = PBXGroup;
 			children = (
-				FACAB63629FAFD6C0054D077 /* Fibonacci.h */,
+				FACAB63629FAFD6C0054D077 /* SkateMateCxx.h */,
 				FACAB64029FAFD960054D077 /* FibonacciCplusplus.cpp */,
 				FACAB64129FAFD960054D077 /* FibonacciCplusplus.hpp */,
-				FACAB64429FAFE100054D077 /* Fibonacci.swift */,
+				FACAB64429FAFE100054D077 /* SkateMateCxx.swift */,
+				002176852C765E04007AD789 /* SkateMateSessionCplusplus.cpp */,
+				002176862C765E04007AD789 /* SkateMateSessionCplusplus.hpp */,
 			);
-			path = Fibonacci;
+			path = SkateMateCxx;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,8 +158,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FACAB63729FAFD6C0054D077 /* Fibonacci.h in Headers */,
+				FACAB63729FAFD6C0054D077 /* SkateMateCxx.h in Headers */,
 				FACAB64329FAFD960054D077 /* FibonacciCplusplus.hpp in Headers */,
+				002176872C765E04007AD789 /* SkateMateSessionCplusplus.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,9 +186,9 @@
 			productReference = FACAB61D29FAFCB10054D077 /* Swift-and-Cplusplus-mixed-FibonacciFramework.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FACAB63329FAFD6C0054D077 /* Fibonacci */ = {
+		FACAB63329FAFD6C0054D077 /* SkateMateCxx */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FACAB63F29FAFD6C0054D077 /* Build configuration list for PBXNativeTarget "Fibonacci" */;
+			buildConfigurationList = FACAB63F29FAFD6C0054D077 /* Build configuration list for PBXNativeTarget "SkateMateCxx" */;
 			buildPhases = (
 				FACAB62F29FAFD6C0054D077 /* Headers */,
 				FACAB63029FAFD6C0054D077 /* Sources */,
@@ -194,9 +199,9 @@
 			);
 			dependencies = (
 			);
-			name = Fibonacci;
+			name = SkateMateCxx;
 			productName = Fibonacci;
-			productReference = FACAB63429FAFD6C0054D077 /* Fibonacci.framework */;
+			productReference = FACAB63429FAFD6C0054D077 /* SkateMateCxx.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -233,7 +238,7 @@
 			projectRoot = "";
 			targets = (
 				FACAB61C29FAFCB10054D077 /* Swift-and-Cplusplus-mixed-FibonacciFramework */,
-				FACAB63329FAFD6C0054D077 /* Fibonacci */,
+				FACAB63329FAFD6C0054D077 /* SkateMateCxx */,
 			);
 		};
 /* End PBXProject section */
@@ -262,8 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FACAB62329FAFCB10054D077 /* FibonacciView.swift in Sources */,
-				FACAB62129FAFCB10054D077 /* Swift_and_Cplusplus_mixed_FibonacciFrameworkApp.swift in Sources */,
+				FACAB62329FAFCB10054D077 /* SkateMateView.swift in Sources */,
+				FACAB62129FAFCB10054D077 /* SkateMateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FACAB64529FAFE100054D077 /* Fibonacci.swift in Sources */,
+				FACAB64529FAFE100054D077 /* SkateMateCxx.swift in Sources */,
 				FACAB64229FAFD960054D077 /* FibonacciCplusplus.cpp in Sources */,
+				002176882C765E04007AD789 /* SkateMateSessionCplusplus.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +287,7 @@
 /* Begin PBXTargetDependency section */
 		FACAB63929FAFD6C0054D077 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FACAB63329FAFD6C0054D077 /* Fibonacci */;
+			target = FACAB63329FAFD6C0054D077 /* SkateMateCxx */;
 			targetProxy = FACAB63829FAFD6C0054D077 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -570,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FACAB63F29FAFD6C0054D077 /* Build configuration list for PBXNativeTarget "Fibonacci" */ = {
+		FACAB63F29FAFD6C0054D077 /* Build configuration list for PBXNativeTarget "SkateMateCxx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FACAB63D29FAFD6C0054D077 /* Debug */,
