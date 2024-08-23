@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		002176872C765E04007AD789 /* SkateMateSessionCplusplus.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 002176862C765E04007AD789 /* SkateMateSessionCplusplus.hpp */; };
 		002176882C765E04007AD789 /* SkateMateSessionCplusplus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 002176852C765E04007AD789 /* SkateMateSessionCplusplus.cpp */; };
+		002176922C784C85007AD789 /* skate_mate_analytics_cxx_bluetooth.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 002176912C784C85007AD789 /* skate_mate_analytics_cxx_bluetooth.hpp */; };
+		002176942C784C85007AD789 /* skate_mate_analytics_cxx_bluetoothPriv.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 002176932C784C85007AD789 /* skate_mate_analytics_cxx_bluetoothPriv.hpp */; };
+		002176962C784C85007AD789 /* skate_mate_analytics_cxx_bluetooth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 002176952C784C85007AD789 /* skate_mate_analytics_cxx_bluetooth.cpp */; };
 		FACAB62129FAFCB10054D077 /* SkateMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAB62029FAFCB10054D077 /* SkateMateApp.swift */; };
 		FACAB62329FAFCB10054D077 /* SkateMateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAB62229FAFCB10054D077 /* SkateMateView.swift */; };
 		FACAB62529FAFCB20054D077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACAB62429FAFCB20054D077 /* Assets.xcassets */; };
@@ -48,6 +51,10 @@
 /* Begin PBXFileReference section */
 		002176852C765E04007AD789 /* SkateMateSessionCplusplus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkateMateSessionCplusplus.cpp; sourceTree = "<group>"; };
 		002176862C765E04007AD789 /* SkateMateSessionCplusplus.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SkateMateSessionCplusplus.hpp; sourceTree = "<group>"; };
+		0021768F2C784C85007AD789 /* libskate-mate-analytics-cxx-bluetooth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libskate-mate-analytics-cxx-bluetooth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		002176912C784C85007AD789 /* skate_mate_analytics_cxx_bluetooth.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = skate_mate_analytics_cxx_bluetooth.hpp; sourceTree = "<group>"; };
+		002176932C784C85007AD789 /* skate_mate_analytics_cxx_bluetoothPriv.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = skate_mate_analytics_cxx_bluetoothPriv.hpp; sourceTree = "<group>"; };
+		002176952C784C85007AD789 /* skate_mate_analytics_cxx_bluetooth.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = skate_mate_analytics_cxx_bluetooth.cpp; sourceTree = "<group>"; };
 		18D3FB5E333BF2E98FD82B4E /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		88904A36A8944F4BE70653F4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FACAB61D29FAFCB10054D077 /* Swift-and-Cplusplus-mixed-FibonacciFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-and-Cplusplus-mixed-FibonacciFramework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +71,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0021768D2C784C85007AD789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FACAB61A29FAFCB10054D077 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -82,6 +96,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		002176902C784C85007AD789 /* skate-mate-analytics-cxx-bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				002176912C784C85007AD789 /* skate_mate_analytics_cxx_bluetooth.hpp */,
+				002176932C784C85007AD789 /* skate_mate_analytics_cxx_bluetoothPriv.hpp */,
+				002176952C784C85007AD789 /* skate_mate_analytics_cxx_bluetooth.cpp */,
+			);
+			path = "skate-mate-analytics-cxx-bluetooth";
+			sourceTree = "<group>";
+		};
 		691B0302A97DF170545620C1 /* LICENSE */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +127,7 @@
 				88904A36A8944F4BE70653F4 /* README.md */,
 				FACAB61F29FAFCB10054D077 /* Swift-and-Cplusplus-mixed-FibonacciFramework */,
 				FACAB63529FAFD6C0054D077 /* SkateMateCxx */,
+				002176902C784C85007AD789 /* skate-mate-analytics-cxx-bluetooth */,
 				FACAB61E29FAFCB10054D077 /* Products */,
 				EDE2FDF3ED43C13AF95DF4BB /* Configuration */,
 				691B0302A97DF170545620C1 /* LICENSE */,
@@ -114,6 +139,7 @@
 			children = (
 				FACAB61D29FAFCB10054D077 /* Swift-and-Cplusplus-mixed-FibonacciFramework.app */,
 				FACAB63429FAFD6C0054D077 /* SkateMateCxx.framework */,
+				0021768F2C784C85007AD789 /* libskate-mate-analytics-cxx-bluetooth.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,6 +180,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0021768B2C784C85007AD789 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002176922C784C85007AD789 /* skate_mate_analytics_cxx_bluetooth.hpp in Headers */,
+				002176942C784C85007AD789 /* skate_mate_analytics_cxx_bluetoothPriv.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FACAB62F29FAFD6C0054D077 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -167,6 +202,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0021768E2C784C85007AD789 /* skate-mate-analytics-cxx-bluetooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002176972C784C85007AD789 /* Build configuration list for PBXNativeTarget "skate-mate-analytics-cxx-bluetooth" */;
+			buildPhases = (
+				0021768B2C784C85007AD789 /* Headers */,
+				0021768C2C784C85007AD789 /* Sources */,
+				0021768D2C784C85007AD789 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "skate-mate-analytics-cxx-bluetooth";
+			productName = "skate-mate-analytics-cxx-bluetooth";
+			productReference = 0021768F2C784C85007AD789 /* libskate-mate-analytics-cxx-bluetooth.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		FACAB61C29FAFCB10054D077 /* Swift-and-Cplusplus-mixed-FibonacciFramework */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FACAB62C29FAFCB20054D077 /* Build configuration list for PBXNativeTarget "Swift-and-Cplusplus-mixed-FibonacciFramework" */;
@@ -211,10 +263,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				DefaultBuildSystemTypeForWorkspace = Latest;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
+					0021768E2C784C85007AD789 = {
+						CreatedOnToolsVersion = 15.4;
+					};
 					FACAB61C29FAFCB10054D077 = {
 						CreatedOnToolsVersion = 15.0;
 					};
@@ -239,6 +295,7 @@
 			targets = (
 				FACAB61C29FAFCB10054D077 /* Swift-and-Cplusplus-mixed-FibonacciFramework */,
 				FACAB63329FAFD6C0054D077 /* SkateMateCxx */,
+				0021768E2C784C85007AD789 /* skate-mate-analytics-cxx-bluetooth */,
 			);
 		};
 /* End PBXProject section */
@@ -263,6 +320,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0021768C2C784C85007AD789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002176962C784C85007AD789 /* skate_mate_analytics_cxx_bluetooth.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FACAB61929FAFCB10054D077 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -293,6 +358,34 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		002176982C784C85007AD789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 354UWT7ZK9;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		002176992C784C85007AD789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 354UWT7ZK9;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		FACAB62A29FAFCB20054D077 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 18D3FB5E333BF2E98FD82B4E /* SampleCode.xcconfig */;
@@ -558,6 +651,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		002176972C784C85007AD789 /* Build configuration list for PBXNativeTarget "skate-mate-analytics-cxx-bluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002176982C784C85007AD789 /* Debug */,
+				002176992C784C85007AD789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FACAB61829FAFCB10054D077 /* Build configuration list for PBXProject "Swift-and-Cplusplus-mixed-FibonacciFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
