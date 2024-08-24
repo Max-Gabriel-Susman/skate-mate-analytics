@@ -15,7 +15,6 @@ FOUNDATION_EXPORT const unsigned char FibonacciVersionString[];
 
 // In this header, import all the public headers of your framework using statements like `#import <Fibonacci/PublicHeader.h>`
 #import <SkateMateCxx/FibonacciCplusplus.hpp>
-#import <SkateMateCxx/SkateMateSessionCplusplus.hpp>
 
 
 
