@@ -12,7 +12,7 @@ class SkateMateSessionCplusplus {
 public:
     // I think the omission of this constructor was the issue w/ SkateMateSessionCplusplus.hpp not being recognized by the package header mb?
     SkateMateSessionCplusplus(bool printInvocation);
-    double initiateSkateMateSession(double value) const;
+    bool initiateSkateMateSession(bool value) const;
 private:
     bool printInvocation;
 };

@@ -12,20 +12,23 @@ public struct SkateMateSession {
         self.printInvocation = printInvocation
     }
 
-    public func initiateSkateMateSession(_ value: Double) -> Double {
+    public func initiateSkateMateSession(_ value: Bool) -> Bool {
         // Print the value if applicable.
         if printInvocation {
             print("[swift] fibonacci(\(value))")
         }
         
         // Handle the base case of the recursion.
-        guard value > 1.0 else {
-            return 1.0
-        }
+//        guard value > 1.0 else {
+//            return 1.0
+//        }
         
         // Create the C++ `FibonacciCalculatorCplusplus` class and invoke its `fibonacci` method.
-        let cxxCalculator = SkateMateSessionCplusplus(printInvocation)
-        return cxxCalculator.initiateSkateMateSession(value - 1.0) + cxxCalculator.initiateSkateMateSession(value - 2.0)
+        let cxxSession = SkateMateSessionCplusplus(printInvocation)
+        //        let cxxCalculator = SkateMateSessionCplusplus(printInvocation)
+        
+        return cxxSession.initiateSkateMateSession(true)
+//        return cxxCalculator.initiateSkateMateSession(value - 1.0) + cxxCalculator.initiateSkateMateSession(value - 2.0)
     }
 }
 
