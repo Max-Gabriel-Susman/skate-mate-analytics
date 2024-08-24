@@ -5,7 +5,7 @@ Abstract:
 Implements the Swift API.
 */
 
-public struct FibonacciCalculator {
+public struct SkateMateSession {
     private let printInvocation: Bool
     
     public init(printInvocation: Bool) {
@@ -24,7 +24,7 @@ public struct FibonacciCalculator {
         }
         
         // Create the C++ `FibonacciCalculatorCplusplus` class and invoke its `fibonacci` method.
-        let cxxCalculator = FibonacciCalculatorCplusplus(printInvocation)
+        let cxxCalculator = SkateMateSessionCplusplus(printInvocation)
         return cxxCalculator.fibonacci(value - 1.0) + cxxCalculator.fibonacci(value - 2.0)
     }
 }

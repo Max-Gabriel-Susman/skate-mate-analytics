@@ -1,9 +1,10 @@
-/*
-See the LICENSE.txt file for this sample’s licensing information.
-
-Abstract:
-The umbrella header for the framework.
-*/
+//
+//  SkateMatePairingCplusplus.hpp
+//  SkateMateCxx
+//
+//  Created by Max Gabriel Susman on 8/24/24.
+//  Copyright © 2024 Apple. All rights reserved.
+//
 
 #import <Foundation/Foundation.h>
 
@@ -14,7 +15,7 @@ FOUNDATION_EXPORT double FibonacciVersionNumber;
 FOUNDATION_EXPORT const unsigned char FibonacciVersionString[];
 
 // In this header, import all the public headers of your framework using statements like `#import <Fibonacci/PublicHeader.h>`
-#import <SkateMateCxx/FibonacciCplusplus.hpp>
+#import <SkateMateCxx/SkateMateSessionCplusplus.hpp>
 
 
 

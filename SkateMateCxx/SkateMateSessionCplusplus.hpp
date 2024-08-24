@@ -8,9 +8,10 @@
 
 #pragma once
 
-class FibonacciCalculatorCplusplus {
+class SkateMateSessionCplusplus {
 public:
-    FibonacciCalculatorCplusplus(bool printInvocation);
+    // I think the omission of this constructor was the issue w/ SkateMateSessionCplusplus.hpp not being recognized by the package header mb?
+    SkateMateSessionCplusplus(bool printInvocation);
     double fibonacci(double value) const;
 private:
     bool printInvocation;
