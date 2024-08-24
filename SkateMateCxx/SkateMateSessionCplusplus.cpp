@@ -13,7 +13,7 @@
 // I think the omission of this constructor was the issue w/ SkateMateSessionCplusplus.hpp not being recognized by the package header mb?
 SkateMateSessionCplusplus::SkateMateSessionCplusplus(bool printInvocation) : printInvocation(printInvocation) {}
 
-double SkateMateSessionCplusplus::fibonacci(double value) const {
+double SkateMateSessionCplusplus::initiateSkateMateSession(double value) const {
     // Print the value if applicable.
     if (printInvocation)
         std::cout << "[c++] fibonacci(" << value << ")\n";
@@ -24,5 +24,5 @@ double SkateMateSessionCplusplus::fibonacci(double value) const {
     
     // Create the Swift `FibonacciCalculator` structure and invoke its `fibonacci` method.
     auto swiftCalculator = SkateMateCxx::SkateMateSession::init(printInvocation);
-    return swiftCalculator.fibonacci(value - 1.0) + swiftCalculator.fibonacci(value - 2.0);
+    return swiftCalculator.initiateSkateMateSession(value - 1.0) + swiftCalculator.initiateSkateMateSession(value - 2.0);
 }

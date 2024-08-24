@@ -12,7 +12,7 @@ public struct SkateMateSession {
         self.printInvocation = printInvocation
     }
 
-    public func fibonacci(_ value: Double) -> Double {
+    public func initiateSkateMateSession(_ value: Double) -> Double {
         // Print the value if applicable.
         if printInvocation {
             print("[swift] fibonacci(\(value))")
@@ -25,7 +25,7 @@ public struct SkateMateSession {
         
         // Create the C++ `FibonacciCalculatorCplusplus` class and invoke its `fibonacci` method.
         let cxxCalculator = SkateMateSessionCplusplus(printInvocation)
-        return cxxCalculator.fibonacci(value - 1.0) + cxxCalculator.fibonacci(value - 2.0)
+        return cxxCalculator.initiateSkateMateSession(value - 1.0) + cxxCalculator.initiateSkateMateSession(value - 2.0)
     }
 }
 
