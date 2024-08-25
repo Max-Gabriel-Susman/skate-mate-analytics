@@ -7,23 +7,13 @@
 //
 
 #include "SkateMateSessionCplusplus.hpp"
+#include "SkateMatePeripheralCplusplus.hpp"
 #include <SkateMateCxx/SkateMateCxx-Swift.h>
 #include <iostream>
 
 // I think the omission of this constructor was the issue w/ SkateMateSessionCplusplus.hpp not being recognized by the package header mb?
-SkateMateSessionCplusplus::SkateMateSessionCplusplus(bool printInvocation) : printInvocation(printInvocation) {}
+SkateMateSessionCplusplus::SkateMateSessionCplusplus(SkateMatePeripheralCplusplus leftSkateMate, SkateMatePeripheralCplusplus rightSkateMate) : leftSkateMate(leftSkateMate), rightSkateMate(rightSkateMate) {}
 
 bool SkateMateSessionCplusplus::initiateSkateMateSession(bool isLeft) const {
-    // Print the value if applicable.
-//    if (printInvocation)
-//        std::cout << "[c++] fibonacci(" << value << ")\n";
-//    
-//    // Handle the base case of the recursion.
-//    if (value <= 1.0)
-//        return 1.0;
-//    
-//    // Create the Swift `FibonacciCalculator` structure and invoke its `fibonacci` method.
-//    auto swiftCalculator = SkateMateCxx::SkateMateSession::init(printInvocation);
-//    return swiftCalculator.initiateSkateMateSession(value - 1.0) + swiftCalculator.initiateSkateMateSession(value - 2.0);
     return isLeft;
 }
