@@ -8,10 +8,10 @@ The main entry point for this application.
 import SwiftUI
 
 @main
-struct SwiftCplusplusFibonacciFrameworkApp: App {
+struct SkateMateApp: App {
     var body: some Scene {
         WindowGroup {
-            FibonacciView()
+            SkateMateView()
         }
     }
 }

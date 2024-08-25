@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		002176872C765E04007AD789 /* SkateMateSessionCplusplus.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 002176862C765E04007AD789 /* SkateMateSessionCplusplus.hpp */; };
-		002176882C765E04007AD789 /* SkateMateSessionCplusplus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 002176852C765E04007AD789 /* SkateMateSessionCplusplus.cpp */; };
 		002176922C784C85007AD789 /* skate_mate_analytics_cxx_bluetooth.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 002176912C784C85007AD789 /* skate_mate_analytics_cxx_bluetooth.hpp */; };
 		002176942C784C85007AD789 /* skate_mate_analytics_cxx_bluetoothPriv.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 002176932C784C85007AD789 /* skate_mate_analytics_cxx_bluetoothPriv.hpp */; };
 		002176962C784C85007AD789 /* skate_mate_analytics_cxx_bluetooth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 002176952C784C85007AD789 /* skate_mate_analytics_cxx_bluetooth.cpp */; };
 		002176A32C799872007AD789 /* skate_mate_analytics_cxx_analysisPriv.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 002176A22C799872007AD789 /* skate_mate_analytics_cxx_analysisPriv.hpp */; };
 		002176A52C799872007AD789 /* skate_mate_analytics_cxx_analysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 002176A42C799872007AD789 /* skate_mate_analytics_cxx_analysis.cpp */; };
 		002176AC2C799898007AD789 /* skate-mate-analytics-cxx-analysis.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 002176AA2C799898007AD789 /* skate-mate-analytics-cxx-analysis.hpp */; };
+		00E9AEE52C7A80E00015B469 /* SkateMatePeripheralCplusplus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00E9AEE32C7A80E00015B469 /* SkateMatePeripheralCplusplus.cpp */; };
+		00E9AEE62C7A80E00015B469 /* SkateMatePeripheralCplusplus.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 00E9AEE42C7A80E00015B469 /* SkateMatePeripheralCplusplus.hpp */; };
 		FACAB62129FAFCB10054D077 /* SkateMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAB62029FAFCB10054D077 /* SkateMateApp.swift */; };
 		FACAB62329FAFCB10054D077 /* SkateMateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAB62229FAFCB10054D077 /* SkateMateView.swift */; };
 		FACAB62529FAFCB20054D077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACAB62429FAFCB20054D077 /* Assets.xcassets */; };
@@ -22,8 +22,8 @@
 		FACAB63729FAFD6C0054D077 /* SkateMateCxx.h in Headers */ = {isa = PBXBuildFile; fileRef = FACAB63629FAFD6C0054D077 /* SkateMateCxx.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FACAB63A29FAFD6C0054D077 /* SkateMateCxx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACAB63429FAFD6C0054D077 /* SkateMateCxx.framework */; };
 		FACAB63B29FAFD6C0054D077 /* SkateMateCxx.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FACAB63429FAFD6C0054D077 /* SkateMateCxx.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FACAB64229FAFD960054D077 /* FibonacciCplusplus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FACAB64029FAFD960054D077 /* FibonacciCplusplus.cpp */; };
-		FACAB64329FAFD960054D077 /* FibonacciCplusplus.hpp in Headers */ = {isa = PBXBuildFile; fileRef = FACAB64129FAFD960054D077 /* FibonacciCplusplus.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		FACAB64229FAFD960054D077 /* SkateMateSessionCplusplus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FACAB64029FAFD960054D077 /* SkateMateSessionCplusplus.cpp */; };
+		FACAB64329FAFD960054D077 /* SkateMateSessionCplusplus.hpp in Headers */ = {isa = PBXBuildFile; fileRef = FACAB64129FAFD960054D077 /* SkateMateSessionCplusplus.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		FACAB64529FAFE100054D077 /* SkateMateCxx.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAB64429FAFE100054D077 /* SkateMateCxx.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,8 +52,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		002176852C765E04007AD789 /* SkateMateSessionCplusplus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkateMateSessionCplusplus.cpp; sourceTree = "<group>"; };
-		002176862C765E04007AD789 /* SkateMateSessionCplusplus.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SkateMateSessionCplusplus.hpp; sourceTree = "<group>"; };
 		0021768F2C784C85007AD789 /* libskate-mate-analytics-cxx-bluetooth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libskate-mate-analytics-cxx-bluetooth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		002176912C784C85007AD789 /* skate_mate_analytics_cxx_bluetooth.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = skate_mate_analytics_cxx_bluetooth.hpp; sourceTree = "<group>"; };
 		002176932C784C85007AD789 /* skate_mate_analytics_cxx_bluetoothPriv.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = skate_mate_analytics_cxx_bluetoothPriv.hpp; sourceTree = "<group>"; };
@@ -62,6 +60,8 @@
 		002176A22C799872007AD789 /* skate_mate_analytics_cxx_analysisPriv.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = skate_mate_analytics_cxx_analysisPriv.hpp; sourceTree = "<group>"; };
 		002176A42C799872007AD789 /* skate_mate_analytics_cxx_analysis.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = skate_mate_analytics_cxx_analysis.cpp; sourceTree = "<group>"; };
 		002176AA2C799898007AD789 /* skate-mate-analytics-cxx-analysis.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "skate-mate-analytics-cxx-analysis.hpp"; sourceTree = "<group>"; };
+		00E9AEE32C7A80E00015B469 /* SkateMatePeripheralCplusplus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkateMatePeripheralCplusplus.cpp; sourceTree = "<group>"; };
+		00E9AEE42C7A80E00015B469 /* SkateMatePeripheralCplusplus.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SkateMatePeripheralCplusplus.hpp; sourceTree = "<group>"; };
 		18D3FB5E333BF2E98FD82B4E /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		88904A36A8944F4BE70653F4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FACAB61D29FAFCB10054D077 /* Swift-and-Cplusplus-mixed-FibonacciFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-and-Cplusplus-mixed-FibonacciFramework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,8 +72,8 @@
 		FACAB62929FAFCB20054D077 /* Swift_and_Cplusplus_mixed_FibonacciFramework.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Swift_and_Cplusplus_mixed_FibonacciFramework.entitlements; sourceTree = "<group>"; };
 		FACAB63429FAFD6C0054D077 /* SkateMateCxx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SkateMateCxx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACAB63629FAFD6C0054D077 /* SkateMateCxx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkateMateCxx.h; sourceTree = "<group>"; };
-		FACAB64029FAFD960054D077 /* FibonacciCplusplus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FibonacciCplusplus.cpp; sourceTree = "<group>"; };
-		FACAB64129FAFD960054D077 /* FibonacciCplusplus.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FibonacciCplusplus.hpp; sourceTree = "<group>"; };
+		FACAB64029FAFD960054D077 /* SkateMateSessionCplusplus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkateMateSessionCplusplus.cpp; sourceTree = "<group>"; };
+		FACAB64129FAFD960054D077 /* SkateMateSessionCplusplus.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SkateMateSessionCplusplus.hpp; sourceTree = "<group>"; };
 		FACAB64429FAFE100054D077 /* SkateMateCxx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkateMateCxx.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -194,11 +194,11 @@
 			isa = PBXGroup;
 			children = (
 				FACAB63629FAFD6C0054D077 /* SkateMateCxx.h */,
-				FACAB64029FAFD960054D077 /* FibonacciCplusplus.cpp */,
-				FACAB64129FAFD960054D077 /* FibonacciCplusplus.hpp */,
+				FACAB64029FAFD960054D077 /* SkateMateSessionCplusplus.cpp */,
+				FACAB64129FAFD960054D077 /* SkateMateSessionCplusplus.hpp */,
 				FACAB64429FAFE100054D077 /* SkateMateCxx.swift */,
-				002176852C765E04007AD789 /* SkateMateSessionCplusplus.cpp */,
-				002176862C765E04007AD789 /* SkateMateSessionCplusplus.hpp */,
+				00E9AEE32C7A80E00015B469 /* SkateMatePeripheralCplusplus.cpp */,
+				00E9AEE42C7A80E00015B469 /* SkateMatePeripheralCplusplus.hpp */,
 			);
 			path = SkateMateCxx;
 			sourceTree = "<group>";
@@ -228,9 +228,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00E9AEE62C7A80E00015B469 /* SkateMatePeripheralCplusplus.hpp in Headers */,
 				FACAB63729FAFD6C0054D077 /* SkateMateCxx.h in Headers */,
-				FACAB64329FAFD960054D077 /* FibonacciCplusplus.hpp in Headers */,
-				002176872C765E04007AD789 /* SkateMateSessionCplusplus.hpp in Headers */,
+				FACAB64329FAFD960054D077 /* SkateMateSessionCplusplus.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,8 +406,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FACAB64529FAFE100054D077 /* SkateMateCxx.swift in Sources */,
-				FACAB64229FAFD960054D077 /* FibonacciCplusplus.cpp in Sources */,
-				002176882C765E04007AD789 /* SkateMateSessionCplusplus.cpp in Sources */,
+				FACAB64229FAFD960054D077 /* SkateMateSessionCplusplus.cpp in Sources */,
+				00E9AEE52C7A80E00015B469 /* SkateMatePeripheralCplusplus.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,12 +1,12 @@
 import SwiftUI
 import SkateMateCxx
 
-func fibonacci(_ value: Double) -> Double {
-    return FibonacciCalculator(printInvocation: true).fibonacci(value)
-}
+//func initiateSkateMateSession(_ value: Bool) -> Bool {
+//    return SkateMateSession(leftSkateMate: true, rightSkateMate: true).initiateSkateMateSession(value)
+//}
 
-func initiateSkateMateSession(_ value: Bool) -> Bool {
-    return SkateMateSession().initiateSkateMateSession(isLeft: value)
+func initiateSkateMateSession(_ value: SkateMatePeripheralCplusplus) -> SkateMatePeripheralCplusplus {
+    return SkateMateSession(leftSkateMate: true, rightSkateMate: true).initiateSkateMateSession(value)
 }
 
 struct SkateMate: Identifiable {
@@ -20,9 +20,10 @@ struct SkateMateDetail: Identifiable {
     let detail: String
 }
 
-struct FibonacciView: View {
+struct SkateMateView: View {
     // State variable to store result
-    @State private var result: Double = fibonacci(5)
+//    @State private var result: Double = initiateSkateMateSession(5)
+    @State private var result: Bool = initiateSkateMateSession(true)
 
     // Sample data for the skate mates
     @State private var skateMates: [SkateMate] = [
@@ -49,9 +50,10 @@ struct FibonacciView: View {
             
             // Adding a Button
             Button(action: {
+                print("Pairing Skate Mates... ")
                 // Action to be performed when button is pressed
-                result = fibonacci(10)
-                print("Button pressed! Fibonacci(10) = \(result)")
+                result = initiateSkateMateSession(true)
+                print("\(result)") // let's change this and the other action print stmt at some point to
             }) {
                 Text("Pair Skate Mates")
             }
@@ -60,8 +62,8 @@ struct FibonacciView: View {
             .foregroundColor(.white)
             .cornerRadius(8)
 
-            Text("Pairing Skate Mates...")
-            Text("Skate Mates paired")
+//            Text("Pairing Skate Mates...") // restore from button action prnt stmts, needs to occurr dynamically based off pairing events
+//            Text("Skate Mates paired")
             
             // Columns for each Skate Mate with additional tables
             HStack {
@@ -113,6 +115,6 @@ struct FibonacciView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        FibonacciView()
+        SkateMateView()
     }
 }
