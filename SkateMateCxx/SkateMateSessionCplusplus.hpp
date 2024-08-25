@@ -20,8 +20,6 @@ public:
     SkateMateSessionCplusplus(SkateMatePeripheralCplusplus leftSkateMate, SkateMatePeripheralCplusplus rightSkateMate);
     bool initiateSkateMateSession(bool value) const;
 private:
-//    bool leftSkateMate;
-//    bool rightSkateMate;
     SkateMatePeripheralCplusplus leftSkateMate;
     SkateMatePeripheralCplusplus rightSkateMate;
 };

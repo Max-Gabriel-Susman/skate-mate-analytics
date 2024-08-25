@@ -1,13 +1,9 @@
 import SwiftUI
 import SkateMateCxx
 
-//func initiateSkateMateSession(_ value: Bool) -> Bool {
-//    return SkateMateSession(leftSkateMate: true, rightSkateMate: true).initiateSkateMateSession(value)
+//func initiateSkateMateSession(_ value: Bool) -> SkateMateSessionCplusplus {
+//    return SkateMateSession(leftSkateMate: SkateMatePeripheralCplusplus(), rightSkateMate: SkateMatePeripheralCplusplus()).initiateSkateMateSession(value)
 //}
-
-func initiateSkateMateSession(_ value: SkateMatePeripheralCplusplus) -> SkateMatePeripheralCplusplus {
-    return SkateMateSession(leftSkateMate: true, rightSkateMate: true).initiateSkateMateSession(value)
-}
 
 struct SkateMate: Identifiable {
     let id = UUID()
@@ -21,9 +17,7 @@ struct SkateMateDetail: Identifiable {
 }
 
 struct SkateMateView: View {
-    // State variable to store result
-//    @State private var result: Double = initiateSkateMateSession(5)
-    @State private var result: Bool = initiateSkateMateSession(true)
+//    @State private var result: SkateMateSessionCplusplus = initiateSkateMateSession(true)
 
     // Sample data for the skate mates
     @State private var skateMates: [SkateMate] = [
@@ -52,8 +46,8 @@ struct SkateMateView: View {
             Button(action: {
                 print("Pairing Skate Mates... ")
                 // Action to be performed when button is pressed
-                result = initiateSkateMateSession(true)
-                print("\(result)") // let's change this and the other action print stmt at some point to
+//                result = initiateSkateMateSession(true)
+//                print("\(result)") // let's change this and the other action print stmt at some point to
             }) {
                 Text("Pair Skate Mates")
             }
