@@ -1,9 +1,10 @@
 import SwiftUI
 import SkateMateCxx
 
-//func initiateSkateMateSession(_ value: Bool) -> SkateMateSessionCplusplus {
-//    return SkateMateSession(leftSkateMate: SkateMatePeripheralCplusplus(), rightSkateMate: SkateMatePeripheralCplusplus()).initiateSkateMateSession(value)
-//}
+func initiateSkateMateSession(_ value: Bool) -> SkateMateSessionCplusplus {
+    return /*SkateMateSession(leftSkateMate: SkateMatePeripheralCplusplus(), rightSkateMate: SkateMatePeripheralCplusplus()).initiateSkateMateSession(value)*/
+    SkateMateSessionCplusplus()
+}
 
 struct SkateMate: Identifiable {
     let id = UUID()
@@ -17,7 +18,7 @@ struct SkateMateDetail: Identifiable {
 }
 
 struct SkateMateView: View {
-//    @State private var result: SkateMateSessionCplusplus = initiateSkateMateSession(true)
+    @State private var result: SkateMateSessionCplusplus = initiateSkateMateSession(true)
 
     // Sample data for the skate mates
     @State private var skateMates: [SkateMate] = [

@@ -8,5 +8,6 @@
 
 //#include "SkateMatePeripheralCplusplus.hpp"
 #include "SkateMateSessionCplusplus.hpp"
+#include "SkateMatePeripheralCplusplus.hpp"
 
 SkateMatePeripheralCplusplus::SkateMatePeripheralCplusplus() {}

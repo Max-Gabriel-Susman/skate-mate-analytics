@@ -14,8 +14,8 @@ public struct SkateMateSession {
 //    private let rightSkateMate: SkateMatePeripheral
 //    private let leftSkateMate: SkateMatePeripheralCplusplus
 //    private let rightSkateMate: SkateMatePeripheralCplusplus
-    private var leftSkateMate: SkateMatePeripheralCplusplus = SkateMatePeripheralCplusplus()
-    private var rightSkateMate: SkateMatePeripheralCplusplus = SkateMatePeripheralCplusplus()
+    public var leftSkateMate: SkateMatePeripheralCplusplus
+    public var rightSkateMate: SkateMatePeripheralCplusplus
     
     public init(leftSkateMate: SkateMatePeripheralCplusplus, rightSkateMate: SkateMatePeripheralCplusplus) {
         self.leftSkateMate = leftSkateMate
