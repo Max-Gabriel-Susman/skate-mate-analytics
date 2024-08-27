@@ -7,7 +7,7 @@
 //
 
 #pragma once
-enum SkateMateJumpCplusplus {
+enum SkateMateJumpTypeCplusplus {
     Flip,
     Lutz,
     Flutz,
@@ -21,6 +21,12 @@ enum SkateMateJumpCplusplus {
 enum SkateMateElementTypeCplusplus {
     Jump,
     UnknownElement,
+};
+
+
+class SkateMateJumpCplusplus {
+public:
+    SkateMateJumpCplusplus();
 };
 
 class SkateMateElementCplusplus {
