@@ -8,6 +8,12 @@
 
 #pragma once
 
+enum SkateMateJumpCplusplus {
+    Flip,
+    Lutz,
+    Flutz,
+    Other,
+};
 
 class SkateMateElementCplusplus {
 public:
