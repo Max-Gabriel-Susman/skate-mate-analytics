@@ -8,11 +8,15 @@
 
 #pragma once
 
+class SkateMateRecordingCplusplus {
+public:
+    SkateMateRecordingCplusplus();
+};
+
 class SkateMatePeripheralCplusplus {
 public:
     SkateMatePeripheralCplusplus();
 };
-
 
 class SkateMateSessionCplusplus {
 public:
