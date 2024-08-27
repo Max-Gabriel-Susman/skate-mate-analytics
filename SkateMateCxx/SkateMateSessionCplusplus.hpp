@@ -7,13 +7,17 @@
 //
 
 #pragma once
-
 enum SkateMateJumpCplusplus {
     Flip,
     Lutz,
     Flutz,
     Other,
 };
+
+// mb we can subclass SkateMateElementCplusplus here as SkateMateJumpCplusplus while making SkateMateElementCplusplus abstract
+
+// perhaps element type should also be an enum with Jump as one of it's values
+
 
 class SkateMateElementCplusplus {
 public:
