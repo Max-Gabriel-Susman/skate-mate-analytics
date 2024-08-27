@@ -8,6 +8,13 @@
 
 #pragma once
 
+
+class SkateMateElementCplusplus {
+public:
+    SkateMateElementCplusplus();
+};
+
+
 class SkateMateRecordingCplusplus {
 public:
     SkateMateRecordingCplusplus();
