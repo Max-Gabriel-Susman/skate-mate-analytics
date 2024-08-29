@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001A73392C80094E00A3FDD9 /* SkateMateJumpCplusplus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 001A73382C80094E00A3FDD9 /* SkateMateJumpCplusplus.cpp */; };
 		002176922C784C85007AD789 /* skate_mate_analytics_cxx_bluetooth.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 002176912C784C85007AD789 /* skate_mate_analytics_cxx_bluetooth.hpp */; };
 		002176942C784C85007AD789 /* skate_mate_analytics_cxx_bluetoothPriv.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 002176932C784C85007AD789 /* skate_mate_analytics_cxx_bluetoothPriv.hpp */; };
 		002176962C784C85007AD789 /* skate_mate_analytics_cxx_bluetooth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 002176952C784C85007AD789 /* skate_mate_analytics_cxx_bluetooth.cpp */; };
@@ -52,6 +53,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		001A73382C80094E00A3FDD9 /* SkateMateJumpCplusplus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkateMateJumpCplusplus.cpp; sourceTree = "<group>"; };
 		0021768F2C784C85007AD789 /* libskate-mate-analytics-cxx-bluetooth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libskate-mate-analytics-cxx-bluetooth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		002176912C784C85007AD789 /* skate_mate_analytics_cxx_bluetooth.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = skate_mate_analytics_cxx_bluetooth.hpp; sourceTree = "<group>"; };
 		002176932C784C85007AD789 /* skate_mate_analytics_cxx_bluetoothPriv.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = skate_mate_analytics_cxx_bluetoothPriv.hpp; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 				FACAB64429FAFE100054D077 /* SkateMateCxx.swift */,
 				00E9AEE32C7A80E00015B469 /* SkateMatePeripheralCplusplus.cpp */,
 				00E9AEE42C7A80E00015B469 /* SkateMatePeripheralCplusplus.hpp */,
+				001A73382C80094E00A3FDD9 /* SkateMateJumpCplusplus.cpp */,
 			);
 			path = SkateMateCxx;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FACAB64529FAFE100054D077 /* SkateMateCxx.swift in Sources */,
+				001A73392C80094E00A3FDD9 /* SkateMateJumpCplusplus.cpp in Sources */,
 				FACAB64229FAFD960054D077 /* SkateMateSessionCplusplus.cpp in Sources */,
 				00E9AEE52C7A80E00015B469 /* SkateMatePeripheralCplusplus.cpp in Sources */,
 			);
